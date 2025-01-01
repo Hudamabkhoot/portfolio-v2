@@ -1,0 +1,30 @@
+{
+    "Nav": {
+        "title": "هدى مبخوت",
+        "navOne": "الرئيسية",
+        "navTwo": "المشاريع",
+        "navThree": "المهارات",
+        "navFour": "اتصل"
+    },
+    "Hero": {
+        "title": "مرحبًا.. أنا هدى مبخوت",
+        "parOne": "مطور واجهات أمامية",
+        "parTwo": "أقوم بتحويل الأفكار إلى تجارب تفاعلية"
+    },
+    "Skills": {
+        "title": "المهارات"
+    },
+    "Projects": {
+        "title": "أعمالي"
+    },
+    "Contact": {
+        "title": "! تواصل معي",
+        "btnOne": "لنكد إن",
+        "btnTwo": "واتس اب",
+        "btnThree": "اتصل بي"
+    },
+    "LocaleSwitcher":  {
+         "label": "English",
+         "locale": "{locale, select, ar {العربية} en {English} other {Unknown}}"
+    }
+}

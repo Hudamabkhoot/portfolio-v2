@@ -1,0 +1,30 @@
+{
+    "Nav": {
+        "title": "Huda Mabkhoot",
+        "navOne": "Home",
+        "navTwo": "Projects",
+        "navThree": "Skills",
+        "navFour": "Contact"
+    },
+    "Hero": {
+        "title": "Huda Mabkhoot",
+        "parOne": "Frontend Developer",
+        "parTwo": "Transforming ideas into interactive experiences!"
+    },
+    "Skills": {
+        "title": "Skills"
+    },
+    "Projects": {
+        "title": "My <span>Creative</span> Portfolio"
+    },
+    "Contact": {
+        "title": "Let's <span>have a chat!</span>",
+        "btnOne": "LinkedIn",
+        "btnTwo": " WhatsApp",
+        "btnThree": " Call me"
+    },
+    "LocaleSwitcher":  {
+        "label": "العربية",
+        "locale": "{locale, select, ar {العربية} en {English} other {Unknown}}"
+    }
+  }
