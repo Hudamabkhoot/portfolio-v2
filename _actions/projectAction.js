@@ -3,19 +3,20 @@
 import projectModal from "../models/projectModel"
 import connectDB from "../config/database"
 
-export async function getProjects(locale) {
-    const orderValue = locale === 'ar' ? 6 : 1;
+
+export async function getProjects() {
 
     try {
         await connectDB()
-        const projects = await projectModal.find({ lang: locale }).sort({ order: orderValue });
+
+        const projects = await projectModal.find().sort({ order: 1 });
 
 
         if (!projects || projects.length === 0) {
             throw new Error('No projects found');
         }
 
-        return { data: JSON.parse(JSON.stringify(projects))}
+        return { data: JSON.parse(JSON.stringify(projects)) };
 
     } catch(err) {
         return {
