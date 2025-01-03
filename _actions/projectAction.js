@@ -2,20 +2,25 @@
 
 import projectModal from "../models/projectModel"
 import connectDB from "../config/database"
-import { useLocale } from "next-intl"
 
-
-export async function getProjects() {
-    const locale = useLocale
+export async function getProjects(locale) {
     const orderValue = locale === 'ar' ? 6 : 1;
 
     try {
         await connectDB()
-        const data = JSON.parse(JSON.stringify(await projectModal.find({ lang: locale }).sort({ order: orderValue })))
+        const projects = await projectModal.find({ lang: locale }).sort({ order: orderValue });
 
-        return { data }
+
+        if (!projects || projects.length === 0) {
+            throw new Error('No projects found');
+        }
+
+        return { data: JSON.parse(JSON.stringify(projects))}
 
     } catch(err) {
-        return { errMsg: err.message}
+        return {
+            error: true,
+            message: err.message || 'An unexpected error occurred while fetching the projects.',
+        };
     }
 }

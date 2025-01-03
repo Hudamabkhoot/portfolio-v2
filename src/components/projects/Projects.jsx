@@ -7,6 +7,7 @@ export default function Projects() {
   const t = useTranslations('Projects');
   const locale = useLocale()
 
+
   return (
     <div className="min-h-screen p-4 my-8" id="porjects">
         <Heading name={
