@@ -2,29 +2,63 @@
     "Nav": {
         "title": "Huda Mabkhoot",
         "navOne": "Home",
-        "navTwo": "Projects",
-        "navThree": "Skills",
-        "navFour": "Contact"
+        "navTwo": "About",
+        "navThree": "Projects",
+       "navFour": "Skills",
+        "navFive": "Contact"
     },
     "Hero": {
         "title": "Huda Mabkhoot",
         "parOne": "Frontend Developer",
         "parTwo": "Transforming ideas into interactive experiences!"
     },
+    "About": {
+        "title": "My Journey as a <span>Frontend Developer</span>",
+        "textOne": "Began my MBA studies in Project Management.",
+        "dateOne": "Aug 2021",
+        "textTwo": "Discovered web development through the lens of a technical project manager.",
+        "dateTwo": "Dec 2021",
+        "textThree": "Decided to explore the development side of web development.",
+        "dateThree": "Feb 2022",
+        "textFour": "Learned extensively through online resources and committed to coding.",
+        "dateFour": "Feb 2022 - Jul 2022",
+        "textFive": "Started learning web development with Scrimba's Career Path.",
+        "dateFive": "Aug 2022",
+        "textSix": "Graduated with my MBA.",
+        "dateSix": "Jun 2023",
+        "textSeven": "Transitioned to full-time coding.",
+        "dateSeven": "Jul 2023",
+        "textEight": "Front-end Developer and Product Owner at Chingu",
+        "dateEight": "Jan 2024 - Aug 2024",
+        "textNine": "Project Coordinator and Front-end Developer at The Collab Lab",
+        "dateNine": "Aug 2024 - Oct 2024",
+        "textTen": "Became a certified front-end developer from Meta and continue to expand my skills.",
+        "dateTen": "Dec 2024 - present"
+    },
     "Skills": {
         "title": "Skills"
     },
     "Projects": {
-        "title": "My <span>Creative</span> Portfolio"
+        "title": "My <span>Creative</span> Portfolio",
+        "0": "My portfolio, built with Next.js, MongoDB, DaisyUI, Framer Motion, Tailwind CSS, and Lenis, showcases interactive projects, seamless animations, and a smooth user experience.",
+        "1": "GrocerEase is a web app built with React, Firebase, Tailwind CSS, and Shadcn UI. It offers smart shopping lists, personalized reminders, and prioritizes items based on your shopping habits for efficiency.",
+        "2": "GourmetGo is a mobile-first single-page app that simulates a restaurant menu and ordering system, featuring real-time data from the Free Food Menus API and interactive maps.",
+        "3": "Dinopedia is a mobile-first web app showcasing dinosaur facts from London’s Natural History Museum. It offers dynamic data rendering and an engaging, user-friendly interface.",
+        "4": "Van Life is a user-friendly web app built with React and Firebase, simplifying van rentals for road trips. It offers easy rental management, reviews, profile updates, and a personalized, efficient experience.",
+        "link": "Link"
     },
     "Contact": {
         "title": "Let's <span>have a chat!</span>",
-        "btnOne": "LinkedIn",
-        "btnTwo": " WhatsApp",
-        "btnThree": " Call me"
+        "btnOne": "Email",
+        "btnTwo": "LinkedIn",
+        "btnThree": " WhatsApp",
+        "btnFour": "Call"
     },
     "LocaleSwitcher":  {
         "label": "العربية",
         "locale": "{locale, select, ar {العربية} en {English} other {Unknown}}"
-    }
+    },
+    "NotFound": {
+    "title": "Page Not Found"
+  }
   }

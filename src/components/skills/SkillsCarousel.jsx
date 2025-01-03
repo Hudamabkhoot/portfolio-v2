@@ -6,24 +6,26 @@ import useMeasure from "react-use-measure";
 import Skill from "./Skill";
 
 export default function SkillsCarousel() {
+  
     const images = [
-        "/images/react.svg",
-        "/images/js.svg",
-        "/images/typescript.svg",
-        "/images/html.svg",
-        "/images/css.svg",
-        "/images/tailwind.svg",
-        "/images/redux.svg",
-        "/images/firebase.svg",
-        "/images/git.svg",
-        "/images/vite.svg",
+      {text: 'React.js', img: "/images/react.svg"},
+       {text: 'JavaScript', img:  "/images/js.svg"},
+         {text: 'TypeScript', img: "/images/typescript.svg"},
+         {text: 'HTML', img: "/images/html.svg"},
+         {text: 'CSS', img: "/images/css.svg"},
+         {text: 'Tailwind CSS', img: "/images/tailwind.svg"},
+         {text: 'Redux', img: "/images/redux.svg"},
+         {text: 'Firebase', img: "/images/firebase.svg"},
+         {text: 'Git', img: "/images/git.svg"},
+         {text: 'Vite', img: "/images/vite.svg"},
       ];
+
       const FAST_DURATION = 25;
       const SLOW_DURATION = 75;
     
       const [duration, setDuration] = useState(FAST_DURATION);
       let [ref, { width }] = useMeasure();
-    
+
       const xTranslation = useMotionValue(0);
     
       const [mustFinish, setMustFinish] = useState(false);
@@ -51,10 +53,10 @@ export default function SkillsCarousel() {
             repeatDelay: 0,
           });
         }
-    
+
         return controls?.stop;
       }, [rerender, xTranslation, duration, width]);
-    
+
       return (
         <div className="py-8 cursor-pointer">
         <motion.div
@@ -70,9 +72,7 @@ export default function SkillsCarousel() {
             setDuration(FAST_DURATION);
           }}
         >
-          {[...images, ...images].map((item, idx) => (
-            <Skill image={`${item}`} key={idx} />
-          ))}
+            <Skill images={[...images, ...images]} />
         </motion.div>
       </div>
   )

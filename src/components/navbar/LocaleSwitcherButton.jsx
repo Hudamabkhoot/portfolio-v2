@@ -2,7 +2,6 @@
 import { useParams } from "next/navigation"
 import {useRouter, usePathname} from '@/i18n/routing'
 import { useTransition } from "react"
-import { useLocale } from "next-intl"
 
 export default function LocaleSwitcherButton({label, locale}) {
     const router = useRouter()

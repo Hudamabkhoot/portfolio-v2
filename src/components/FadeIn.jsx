@@ -4,14 +4,14 @@ import { motion } from 'framer-motion'
 import { fadeIn } from '@/app/variants'
 import { useState } from 'react';
 
-export default function FadeIn({ children, delay = 0.2, preventReHide = false }) {
+export default function FadeIn({ children, delay = 0.2, preventReHide = false, direction }) {
   const [hasBeenInView, setHasBeenInView] = useState(false);
 
   const initialState = preventReHide && hasBeenInView ? 'show' : 'hidden';
 
   return (
     <motion.div
-      variants={fadeIn('up', delay)}
+      variants={fadeIn(direction, delay)}
       initial={initialState}
       whileInView={'show'}
       onViewportEnter={() => {

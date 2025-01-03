@@ -1,13 +1,51 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Heading from "../Heading";
 import SkillsCarousel from "./SkillsCarousel";
+import SkillCard from "./SkillCard";
+import FadeIn from "../FadeIn";
+
+
 
 export default function SkillsSection() {
+
   const t = useTranslations('Skills');
+  const locale = useLocale()
+
+const frontend = [
+  {text: 'React.js'},
+  {text: 'JavaScript'},
+  {text: 'TypeScript'},
+  {text: 'HTML & CSS'}
+];
+
+
+const tools = [
+  {text: 'Tailwind CSS'},
+  {text: 'Redux'},
+  {text: 'Firebase'},
+  {text: 'Git'}
+]
+
 
   return (
-    <div className='relative min-h-screen flex flex-col items-center' id="skills">
-        <Heading name={t('title')} addedClass={`border-b-4 border-b-main-purple pb-2`}/>
+    <div className='relative min-h-screen flex flex-col items-center gap-20' id="skills">
+        <Heading name={
+            locale === 'ar' ? (
+              <>
+                {t('title')} <span className="text-main-purple">و الخبرات</span>
+              </>
+            ) : (
+              t('title')
+            )
+          } addedClass={`mt-14`}/>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <FadeIn delay={0.1} preventReHide={true}>
+            <SkillCard data={frontend} title={'Frontend'}/>
+          </FadeIn>
+          <FadeIn delay={0.2} preventReHide={true}>
+            <SkillCard data={tools} title={'Tools'}/>
+          </FadeIn>
+        </div>
         <SkillsCarousel />
     </div>
   )

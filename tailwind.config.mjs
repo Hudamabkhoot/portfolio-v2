@@ -20,7 +20,6 @@ module.exports = {
         'dark-blue': '#1d232a'
       },
       fontFamily: {
-        sans: ['var(--font-open-sans)'],
         cairo: ['var(--font-cairo)'],
       },
     }

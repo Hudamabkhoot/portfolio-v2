@@ -1,21 +1,21 @@
-'use client'
-
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
 
-function Skill ({ image }) {
-  const [showOverlay, setShowOverlay] = useState(false);
+function Skill ({ images }) {
 
   return (
-    <motion.div
-      className="relative h-[100px] min-w-[100px] md:h-[130px] md:min-w-[130px] rounded-xl flex justify-center items-center"
-      key={image}
-      onHoverStart={() => setShowOverlay(true)}
-      onHoverEnd={() => setShowOverlay(false)}
-    >
-      <Image src={image} alt={image} fill style={{ objectFit: "cover" }} />
-    </motion.div>
+    <>
+      {images.map((item, idx) => (
+        <div key={`${item.text}-${idx}`} className="lg:tooltip" data-tip={item.text}>
+          <motion.div
+            className="relative h-[100px] min-w-[100px] md:h-[130px] md:min-w-[130px] rounded-xl flex justify-center items-center"
+          >
+            <Image src={item.img} alt={item.text} fill style={{ objectFit: "cover" }} />
+          </motion.div>
+        </div>
+      ))}
+    </>
   );
 };
 

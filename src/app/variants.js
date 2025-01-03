@@ -16,7 +16,25 @@ export const fadeIn = (direction = 'up', delay) => {
                 type: 'tween',
                 duration: 1.2,
                 delay: delay,
-                ease: [0.25, 0.25, 0.25, 0.75], // Ease in-out cubic
+                ease: [0.25, 0.25, 0.25, 0.75],
+            }
+        }
+    }
+}
+
+
+export const changeSVGColor = (delay = 0, color = '#686BFFff') => {
+    return {
+        gray: {
+            fill: '#828282ff',
+        },
+        purple: {
+            fill: color,
+            transition: {
+                type: 'tween',
+                duration: 1.5,
+                delay: delay,
+                ease: [0.25, 0.25, 0.25, 0.75],
             }
         }
     }
