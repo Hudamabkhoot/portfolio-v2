@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import { getProjects } from "../../../_actions/projectAction";
 import Project from "./Project";
 
-export const maxDuration = 50;
+export const maxDuration = 30;
 
 export default async function ProjectsCarousel({locale}) {
   const t = useTranslations('Projects');
