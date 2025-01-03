@@ -1,6 +1,10 @@
 import { useLocale, useTranslations } from "next-intl";
 import Heading from "../Heading";
-import ProjectsCarousel from "./ProjectsCarousel";
+
+
+const Carousel = dynamic(() => import("./ProjectsCarousel"), {
+  loading: () => <span className="loading loading-spinner loading-sm"></span>,
+});
 
 
 export default function Projects() {
@@ -20,7 +24,7 @@ export default function Projects() {
                 span: (chunks) => <span className="text-main-purple">{chunks}</span>
                 })
           }/>
-        <ProjectsCarousel locale={locale}/>
+        <Carousel locale={locale}/>
     </div>
   )
 }
