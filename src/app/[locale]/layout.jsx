@@ -36,7 +36,6 @@ export default async function RootLayout({ children, params }) {
     notFound();
   }
 
-
   const messages = await getMessages();
 
   return (

@@ -46,7 +46,7 @@ export default function ContactButtons() {
         />
     <div className='grid grid-cols-2 gap-5'>
     {buttons.map((button, index) => (
-      <FadeIn delay={index === 0 ? 0.1 : (0.1 + 0.1)} direction={'up'}>
+      <FadeIn delay={index === 0 ? 0.1 : (0.1 + 0.1)} direction={'up'} key={index}>
       <Link href={button.link} target="_blank">
         <button className="flex items-center gap-4 btn-lg xl:btn-xl text-lg bg-main-white border border-grey-400 transition-all duration-200 ease-out delay-100 hover:border-main-purple  hover:text-main-purple rounded-lg">
           {button.img}
