@@ -8,11 +8,11 @@
 
 ## Features
 
-- Interactive Animations: Engaging transitions and animations powered by Framer Motion, making the user experience smooth and dynamic.
-- Project Showcase: A dedicated section to display my latest projects, with detailed descriptions, technologies used, and live demo links..
-- Skills & Expertise: Clear presentation of my technical skills and experience in front-end technologies and other tools.
-- About Me Section: A brief insight into my background, passion for tech, and professional journey.
-- Multi-language Support: Fully supports both English and Arabic, allowing global accessibility.
+- **Interactive Animations**: Engaging transitions and animations powered by Framer Motion, making the user experience smooth and dynamic.
+- **Project Showcase**: A dedicated section to display my latest projects, with detailed descriptions, technologies used, and live demo links..
+- **Skills & Expertise**: Clear presentation of my technical skills and experience in front-end technologies and other tools.
+- **About Me Section**: A brief insight into my background, passion for tech, and professional journey.
+- **Multi-language Support**: Fully supports both English and Arabic, allowing global accessibility.
 
 ## Built With:
 
