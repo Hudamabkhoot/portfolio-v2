@@ -2,7 +2,6 @@
 import { useLocale, useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { changeSVGColor, fadeIn } from "@/app/variants";
-import FadeIn from "../FadeIn";
 import { useState } from "react";
 
 export default function Timeline() {

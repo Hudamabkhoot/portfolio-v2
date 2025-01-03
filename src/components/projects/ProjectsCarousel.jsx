@@ -4,7 +4,8 @@ import Project from "./Project";
 
 export default async function ProjectsCarousel({locale}) {
   const t = useTranslations('Projects');
-  const { data } = await getProjects()
+
+  const { data } = await getProjects(locale)
 
 
   return (
