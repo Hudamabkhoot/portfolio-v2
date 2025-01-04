@@ -4,7 +4,6 @@ import {routing} from './routing';
 
 export const locales = ['en', 'ar'];
 
-export const maxDuration = 60;
 
 export default getRequestConfig(async ({requestLocale}) => {
   let locale = await requestLocale;

@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 
-export const maxDuration = 60;
 
 const connectDB = async () => {
     if (mongoose.connections[0].readyState){

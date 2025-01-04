@@ -40,11 +40,6 @@
     },
     "Projects": {
         "title": "My <span>Creative</span> Portfolio",
-        "0": "My portfolio, built with Next.js, MongoDB, DaisyUI, Framer Motion, Tailwind CSS, and Lenis, showcases interactive projects, seamless animations, and a smooth user experience.",
-        "1": "GrocerEase is a web app built with React, Firebase, Tailwind CSS, and Shadcn UI. It offers smart shopping lists, personalized reminders, and prioritizes items based on your shopping habits for efficiency.",
-        "2": "GourmetGo is a mobile-first single-page app that simulates a restaurant menu and ordering system, featuring real-time data from the Free Food Menus API and interactive maps.",
-        "3": "Dinopedia is a mobile-first web app showcasing dinosaur facts from London’s Natural History Museum. It offers dynamic data rendering and an engaging, user-friendly interface.",
-        "4": "Van Life is a user-friendly web app built with React and Firebase, simplifying van rentals for road trips. It offers easy rental management, reviews, profile updates, and a personalized, efficient experience.",
         "link": "Link"
     },
     "Contact": {

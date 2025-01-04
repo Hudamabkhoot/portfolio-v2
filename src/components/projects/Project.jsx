@@ -34,7 +34,7 @@ export default function Project({ project, label, locale }) {
           </Link>
         </div>
         </h2>
-        <p className={`text-sm sm:mb-2 ${locale === 'ar' ? 'text-right' : ''}`}>{project.desc}</p>
+        <p className={`text-sm sm:mb-2 ${locale === 'ar' ? 'text-right' : ''}`}>{locale === 'en' ? project.desEn : project.desAr}</p>
         <div className={`card-actions ${locale === 'ar' ? 'flex-row-reverse space-x-reverse' : ''}`}>
         {project.tools.map((tool) => {
             return (
