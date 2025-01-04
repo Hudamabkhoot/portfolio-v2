@@ -32,6 +32,8 @@ const projectSchema = new Schema({
   },
   {
     timestamps: true,
+    bufferCommands: false,
+    autoCreate: false
   }
 );
 
