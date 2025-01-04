@@ -7,12 +7,12 @@ const projectSchema = new Schema({
       required: true,
       trim: true,
     },
-    description: {
+    desEn: {
       type: String,
       required: true,
       trim: true,
     },
-    image: {
+    desAr: {
       type: String,
       required: true,
       trim: true,
