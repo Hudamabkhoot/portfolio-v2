@@ -7,7 +7,11 @@ import connectDB from "../config/database"
 export async function getProjects() {
 
     try {
-        await connectDB()
+        const connectionSuccess = await connectDB();
+
+        if (!connectionSuccess) {
+            throw new Error("Failed to connect to the database");
+        }
 
         const projects = await projectModal.find().sort({ order: 1 });
 

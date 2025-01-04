@@ -7,12 +7,7 @@ const projectSchema = new Schema({
       required: true,
       trim: true,
     },
-    desEn: {
-      type: String,
-      required: true,
-      trim: true,
-    },
-    desAr: {
+    image: {
       type: String,
       required: true,
       trim: true,
@@ -28,6 +23,20 @@ const projectSchema = new Schema({
       githubLink: {
         type: String,
         required: false,
+      },
+      order: {
+        type: Number,
+        required: false,
+      },
+      desAr: {
+        type: String,
+        required: true,
+        trim: true,
+      },
+      desEn: {
+        type: String,
+        required: true,
+        trim: true,
       },
   },
   {
