@@ -7,9 +7,9 @@ export default function About() {
   const locale = useLocale()
  
   return (
-    <div className="hero bg-main-white min-h-screen py-8" id="about">
+    <div className="hero bg-main-white min-h-screen" id="about">
 
-    <div className="hero-content flex flex-col">
+    <div className="hero-content flex flex-col gap-20">
     <Heading name={
             locale === 'ar' ? (
               <>

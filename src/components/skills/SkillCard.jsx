@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 export default function SkillCard({data, title}) {
 
   return (
-    <div className="card border-2 border-gray-100 w-96 shadow-sm">
+    <div className="card border-2 border-gray-100 w-80 md:w-96 shadow-sm">
       <div className="card-body p-0">
       <div className="bg-main-purple flex items-center justify-center rounded-tl-xl rounded-tr-xl">
         <h2 className="card-title font-bold text-xl text-main-white p-2">{title}</h2>

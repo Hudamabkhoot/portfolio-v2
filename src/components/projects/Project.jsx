@@ -6,7 +6,7 @@ export default function Project({ project, label, locale }) {
 
   return (
     <div className="carousel-item">
-    <div className="card w-80 card-lg shadow-xl hover:shadow-main-purple hover:shadow-lg ease-in transition-all duration-300">
+    <div className="card w-72 md:w-80 card-sm shadow-xl hover:shadow-main-purple hover:shadow-lg ease-in transition-all duration-300">
       <figure>
           <img
           src={project.image}

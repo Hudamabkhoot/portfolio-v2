@@ -7,7 +7,7 @@ export default function Projects() {
   const locale = useLocale()
 
   return (
-    <div className="min-h-screen p-4 my-8" id="porjects">
+    <div className="min-h-[70vh] md:min-h-screen p-4 md:my-8 flex flex-col gap-10 md:gap-20" id="porjects">
         <Heading name={
             locale === 'ar'
               ? (

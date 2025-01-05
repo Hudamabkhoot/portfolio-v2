@@ -28,7 +28,7 @@ const tools = [
 
 
   return (
-    <div className='relative min-h-screen flex flex-col items-center gap-20' id="skills">
+    <div className='relative min-h-[70vh] md:min-h-screen flex flex-col items-center gap-10 md:gap-20' id="skills">
         <Heading name={
             locale === 'ar' ? (
               <>

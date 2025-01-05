@@ -7,7 +7,7 @@ import SkillsSection from "@/components/skills/SkillsSection";
 
 export default function Home() {
   return (
-    <div className="bg-main-white overflow-x-hidden select-none font-cairo">
+    <div className="bg-main-white overflow-x-hidden select-none font-cairo flex flex-col gap-20">
       <Hero />
       <About />
       <Projects />
