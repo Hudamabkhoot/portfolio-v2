@@ -1,0 +1,51 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Blue by Sara",
+        "image": "/images/bluebysara.png",
+        "tools": ["Next.js", "MongoDB", "Typescript", "Tailwind CSS", "DaisyUI"],
+        "liveLink": "https://bluebysara.com/",
+        "desAr": "متجر إلكتروني يتيح للمستخدمين التسجيل، تصفح المنتجات، إجراء الطلبات، وعرض مشترياتهم السابقة",
+        "desEn": "Blue by Sara is an e-commerce website designed for the local business Blye by Sara, allowing users to sign up, browse products, place orders, and view their past purchases. It offers a seamless shopping experience for customers."
+      },
+      {
+        "id": 2,
+        "title": "Blue Dashboard",
+        "image": "/images/bluedashboard.png",
+        "tools": ["Next.js", "MongoDB", "Typescript", "Tailwind CSS", "Shadcn UI"],
+        "desAr": "لوحة تحكم للمتجر الإلكتروني، تتيح إدارة المنتجات، إنشاء المجموعات، وإدارة الطلبات",
+        "desEn": "Blue Admin is the admin dashboard for Blue by Sara, enabling the owner to manage products, create collections, and handle orders, giving full control over the website's operations."
+      },
+      {
+        "id": 3,
+        "title": "GrocerEase",
+        "image": "/images/grocerEase.png",
+        "tools": ["React", "Javascript", "Fireabse", "Tailwind CSS", "Shadcn UI"],
+        "liveLink": "https://tcl-79-smart-shopping-list.web.app",
+        "githubLink": "https://github.com/the-collab-lab/tcl-79-smart-shopping-list",
+        "desAr": "تطبيق ويب يُبسّط تجربة التسوق من خلال قوائم ذكية وقابلة للتخصيص. يتتبع عادات الشراء، مما يساعد في التنبؤ بمواعيد إعادة الشراء. يتضمن ميزات مثل تتبع المشتريات المتكررة، وتذكير الشراء في الوقت المناسب",
+        "desEn": "GrocerEase is a web app built with React, Firebase, Tailwind CSS, and Shadcn UI. It offers smart shopping lists, personalized reminders, and prioritizes items based on your shopping habits for efficiency."
+      },
+      {
+        "id": 4,
+        "title": "GourmetGo",
+        "image": "/images/gourmetgo.png",
+        "tools": ["React", "Javascript", "Tailwind CSS", "Leaflet"],
+        "liveLink": "https://gourmet-go.netlify.app/",
+        "githubLink": "https://github.com/chingu-voyages/v50-tier2-team-12",
+        "desAr": "تطبيق ويب يحاكي نظام الطلبات في المطاعم، حيث يتيح للمستخدمين تصفح قائمة الطعام وتقديم الطلبات كما في التطبيقات الحقيقية. يحتوي على خريطة تفاعلية لتمكين المستخدمين من التفاعل مع الموقع",
+        "desEn": "GourmetGo is a mobile-first single-page app that simulates a restaurant menu and ordering system, featuring real-time data from the Free Food Menus API and interactive maps."
+      },
+      {
+        "id": 5,
+        "title": "Dinopedia",
+        "image": "/images/dinopedia.png",
+        "tools": ["React", "Typescript", "Charts js", "Geoapify"],
+        "liveLink": "https://v48-dinopedia.netlify.app/",
+        "githubLink": "https://github.com/chingu-voyages/v48-tier2-team-12",
+        "desAr": "تطبيق ويب يعرض معلومات عن الديناصورات مع محتوى ديناميكي ومخططات تفاعلية، مما ساعد في تحسين تفاعل المستخدمين، بالإضافة إلى توفير تجربة متكاملة ومتجاوبة عبر مختلف الأجهزة",
+        "desEn": "Dinopedia is a mobile-first web app showcasing dinosaur facts from London’s Natural History Museum. Built with React, TypeScript, and React Charts, it offers dynamic data rendering and an engaging, user-friendly interface."
+      }
+    ]
+  }

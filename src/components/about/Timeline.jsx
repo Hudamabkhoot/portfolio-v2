@@ -23,6 +23,7 @@ export default function Timeline() {
         { monthYear: t('dateEight'), description: t('textEight')},
         { monthYear: t('dateNine'), description: t('textNine')},
         { monthYear: t('dateTen'), description: t('textTen')},
+        { monthYear: t('dateEleven'), description: t('textEleven')},
     ]
   return (
     <ul className="timeline timeline-vertical">

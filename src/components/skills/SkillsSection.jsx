@@ -12,6 +12,7 @@ export default function SkillsSection() {
   const locale = useLocale()
 
 const frontend = [
+  {text: 'Next.js'},
   {text: 'React.js'},
   {text: 'JavaScript'},
   {text: 'TypeScript'},
@@ -20,6 +21,7 @@ const frontend = [
 
 
 const tools = [
+  {text: 'MongoDB'},
   {text: 'Tailwind CSS'},
   {text: 'Redux'},
   {text: 'Firebase'},

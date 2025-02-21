@@ -17,11 +17,13 @@ export default function Project({ project, label, locale }) {
     <div className="card-body">
         <h2 className={`card-title text-dark-blue cursor-pointer ${locale === 'ar' ? 'flex-row-reverse space-x-reverse' : ''}`}>
         {project.title}
+       {project.liveLink &&
         <div className="badge bg-main-purple text-main-white font-bold text-xs border-none cursor-pointer hover:opacity-90">
           <Link href={project.liveLink} target="_blank">
             {label}
           </Link>
-        </div>
+        </div>}
+        {project.githubLink &&
         <div className="cursor-pointer">
           <Link href={project.githubLink} target="_blank">
             <Image
@@ -33,6 +35,7 @@ export default function Project({ project, label, locale }) {
             />
           </Link>
         </div>
+        }
         </h2>
         <p className={`text-sm sm:mb-2 ${locale === 'ar' ? 'text-right' : ''}`}>{locale === 'en' ? project.desEn : project.desAr}</p>
         <div className={`card-actions ${locale === 'ar' ? 'flex-row-reverse space-x-reverse' : ''}`}>

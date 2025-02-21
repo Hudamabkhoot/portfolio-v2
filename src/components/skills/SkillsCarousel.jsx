@@ -8,6 +8,7 @@ import Skill from "./Skill";
 export default function SkillsCarousel() {
   
     const images = [
+      {text: 'Next.js', img: "/images/nextjs.svg"},
       {text: 'React.js', img: "/images/react.svg"},
        {text: 'JavaScript', img:  "/images/js.svg"},
          {text: 'TypeScript', img: "/images/typescript.svg"},
@@ -15,6 +16,7 @@ export default function SkillsCarousel() {
          {text: 'CSS', img: "/images/css.svg"},
          {text: 'Tailwind CSS', img: "/images/tailwind.svg"},
          {text: 'Redux', img: "/images/redux.svg"},
+         {text: 'MongoDB', img: "/images/mongodb.svg"},
          {text: 'Firebase', img: "/images/firebase.svg"},
          {text: 'Git', img: "/images/git.svg"},
          {text: 'Vite', img: "/images/vite.svg"},

@@ -16,7 +16,7 @@
         "title": "My Journey as a <span>Frontend Developer</span>",
         "textOne": "Began my MBA studies in Project Management.",
         "dateOne": "Aug 2021",
-        "textTwo": "Discovered web development through the lens of a technical project manager.",
+        "textTwo": "Discovered web development through the lens of a Technical Project Manager.",
         "dateTwo": "Dec 2021",
         "textThree": "Decided to explore the development side of web development.",
         "dateThree": "Feb 2022",
@@ -28,12 +28,14 @@
         "dateSix": "Jun 2023",
         "textSeven": "Transitioned to full-time coding.",
         "dateSeven": "Jul 2023",
-        "textEight": "Front-end Developer and Product Owner at Chingu",
+        "textEight": "Frontend Developer and Product Owner at Chingu",
         "dateEight": "Jan 2024 - Aug 2024",
-        "textNine": "Project Coordinator and Front-end Developer at The Collab Lab",
+        "textNine": "Project Coordinator and Frontend Developer at The Collab Lab",
         "dateNine": "Aug 2024 - Oct 2024",
-        "textTen": "Became a certified front-end developer from Meta and continue to expand my skills.",
-        "dateTen": "Dec 2024 - present"
+        "textTen": "Meta certified Frontend Developer",
+        "dateTen": "Dec 2024",
+        "textEleven": "Freelance Frontend Developer",
+        "dateEleven": "Dec 2024 - present"
     },
     "Skills": {
         "title": "Skills"
